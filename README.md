@@ -38,4 +38,4 @@ export default {
 </script>
 ```
 
-You can change the icon size using the property size (in pixels). Currently it only supports 'substrate' theme, hopefully polkadot style icons support will be added in a future release.
+You can change the icon size using the property size (in pixels). Currently it only supports 'substrate' theme, hopefully polkadot theme support will be added in a future release.

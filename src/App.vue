@@ -5,10 +5,8 @@
     <identicon :address="'5Dh97JC1Yi2GuBwvFkvy3bRLq8o5Yz7ibnvUVDJytbN4Jozc'" :theme="'substrate'" :size="600" />
   </div>
 </template>
-
 <script>
 import identicon from './components/identicon.vue'
-
 export default {
   name: 'app',
   components: {
