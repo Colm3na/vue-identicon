@@ -1,14 +1,19 @@
 {
   "name": "vue-identicon",
   "version": "0.1.0",
+  "main": "./src/main.js",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name identicon ./src/components/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@polkadot/util": "^0.94.1",
+    "@polkadot/util-crypto": "^0.94.1",
     "core-js": "^2.6.5",
+    "jdenticon": "^2.2.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {
